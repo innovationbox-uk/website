@@ -75,7 +75,7 @@ theme = "hugo-agency-theme"
 	# Services section - currently disabled
 	[params.services]
 		title = "Services"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
+		subtitle = "Services - What we provide."
 
 		[[params.services.list]]
 			icon = "fa-shopping-cart"
@@ -236,10 +236,6 @@ theme = "hugo-agency-theme"
 		[[params.footer.social]]
 			icon = "fa-linkedin"
 			link = "https://uk.linkedin.com/in/helenlang"
-
-		[[params.footer.quicklinks]]
-			text = "Privacy Policy"
-			link = "#"
 
 		[[params.footer.quicklinks]]
 			text = "Terms of Use"
