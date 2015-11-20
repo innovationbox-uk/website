@@ -868,7 +868,7 @@ body {
 }
 
 .not-found {
-  background-image: url(../img/header-bg.jpg);
+  background-image: url(../img/404-bg.jpg);
   background-position: center center;
   background-repeat: none;
   -webkit-background-size: cover;
