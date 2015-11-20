@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://localhost:1313"
+baseurl = "http://innovationbox-uk.github.io/"
 languageCode = "en-GB"
 title = "Innovation Box"
 theme = "hugo-agency-theme"

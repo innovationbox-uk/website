@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<head>
+    {{ partial "head.html" . }}
+</head>
+    <body id="page-top" class="bg-light-gray not-found">
+        {{ partial "return-nav.html" . }}
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">Oh No!</h2>
+                        <p class="section-heading">
+                          We can't find that page.
+                          Please head back to our <a href="/">homepage</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        {{ partial "footer.html" . }}
+        {{ partial "modals.html" . }}
+    </body>
+</html>
