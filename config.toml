@@ -1,0 +1,246 @@
+# Site settings
+baseurl = "http://localhost:1313"
+languageCode = "en-GB"
+title = "Innovation Box"
+theme = "hugo-agency-theme"
+
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) or
+	# most longer texts.
+	#
+	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Innovation Box"
+	description = "Your description"
+
+	# Since this template is static, the contact form uses www.formspree.io as a
+	# proxy. The form makes a POST request to their servers to send the actual
+	# email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+	email = "contact@innovationbox.org.uk"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Innovation Box"
+		services = "Services"
+		portfolio = "Portfolio"
+		about = "About"
+		team = "Team"
+		contact = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background image of the hero, replace 'header-bg.jpg' in
+		# the 'static/img' folder.
+		title = "Innovation Box"
+		subtitle = "Changing the way charities and social enterprises engage with IT"
+		buttonText = "Tell me more"
+
+	# About section
+	[params.about]
+		title = "About"
+		subtitle = "What we do"
+
+		[[params.about.list]]
+			icon = "fa-laptop"
+			title = "What we do 1"
+			description = "What we do 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+
+		[[params.about.list]]
+			icon = "fa-tachometer"
+			title = "What we do 2"
+			description = "What we do 2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+
+		[[params.about.list]]
+			icon = "fa-lock"
+			title = "What we do 3"
+			description = "What we do 3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+
+
+	# Services section - currently disabled
+	[params.services]
+		title = "Services"
+		subtitle = "Lorem ipsum dolor sit amet consectetur."
+
+		[[params.services.list]]
+			icon = "fa-shopping-cart"
+			title = "E-Commerce"
+			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+
+		[[params.services.list]]
+			icon = "fa-laptop"
+			title = "Responsive Design"
+			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+
+		[[params.services.list]]
+			icon = "fa-lock"
+			title = "Web"
+			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+
+
+	# Portfolio section - currently disabled
+	[params.portfolio]
+		# All projects defined in their own files. You can find example projects
+		# at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+		# at the root of this Hugo site.
+		# For more informtion take a look at the README.
+		title = "Portfolio"
+		subtitle = "Lorem ipsum dolor sit amet consectetur."
+
+		[params.portfolio.modal]
+            client = "Client"
+            date = "Date"
+            category = "Category"
+            buttonText = "Close project"
+
+
+	# Team section
+	[params.team]
+		title = "The team"
+		subtitle = ""
+		description = ""
+
+		# All team member's pictures are stored under 'static/img/team'.
+		# Replace them with your own too.
+		[[params.team.members]]
+			img = "HelenParry.jpg"
+			name = "Helen Lang"
+			position = "Founder, Director"
+			bio = "Experienced strategic manager with a record of delivering successful growth in organisations. With over 10 years project management, innovation, fundraising, and delivery experience, (working both in the UK and overseas) and a passion for high quality delivery and concrete outcomes. "
+			social = [
+				["fa-twitter", "https://twitter.com/lang_helen"],
+				["fa-linkedin", "https://uk.linkedin.com/in/helenlang"]
+			]
+
+			[params.advisory]
+				title = "Advisory Board"
+				subtitle = "World class business leaders."
+
+			# All advisory member's pictures are stored under 'static/img/advisory'.
+			# Replace them with your own too.
+			[[params.team.advisory]]
+				img = "Akira.jpg"
+				name = "Akira Kirton"
+				position = "Commercialisation Director, BP"
+				bio = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+
+			[[params.team.advisory]]
+				img = "BruceMacMillan.jpg"
+				name = "Bruce Macmillan"
+				position = "Senior Vice President, Visa Europe"
+				bio = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+
+			[[params.team.advisory]]
+				img = "Fraser.jpg"
+				name = "Fraser Duncan"
+				position = "Co-Founder of Clockjack"
+				bio = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+
+			[[params.team.advisory]]
+				img = "Phil.jpg"
+				name = "Phil Sutcliffe"
+				position = "Board Director, TNS UK"
+				bio = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+
+			[[params.team.advisory]]
+				img = "SteveR.jpg"
+				name = "Steve Rich"
+				position = "Director, Ooredoo Group"
+				bio = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+
+			[[params.team.advisory]]
+				img = "Tony.jpg"
+				name = "Tony Rook"
+				position = "Senior Solicitor, Dell"
+				bio = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+
+			[[params.team.advisory]]
+				img = "no-photo.png"
+				name = "Gareth Johnson"
+				position = "COO, Rothschild Wealth Management"
+				bio = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+
+				[[params.team.advisory]]
+					img = "Mads.jpg"
+					name = "Mads Bjornsbo"
+					position = "Managing Partner, Strategise IT"
+					bio = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+
+	# Client section - currently disabled
+	# All the clients' logos are stored under 'static/img/logos'.
+	# Replace them with your clients's logos.
+	[[params.clients]]
+		logo = "envato.jpg"
+		link = "#"
+
+	[[params.clients]]
+		logo = "designmodo.jpg"
+		link = "#"
+
+	[[params.clients]]
+		logo = "themeforest.jpg"
+		link = "#"
+
+	[[params.clients]]
+		logo = "creative-market.jpg"
+		link = "#"
+
+
+	# Contact section
+	[params.contact]
+		title = "Contact us"
+		subtitle  = "Please drop us a line."
+		buttonText = "Send message"
+
+		# 'warning' defines error messages for invalid inputs
+		[params.contact.form.name]
+			text = "Your Name *"
+			warning = "Please enter your name."
+
+		[params.contact.form.email]
+			text = "Your Email *"
+			warning = "Please enter your email address."
+
+		[params.contact.form.phone]
+			text = "Your Phone *"
+			warning = "Please enter your phone number."
+
+		[params.contact.form.message]
+			text = "Your Message *"
+			warning = "Please enter a message."
+
+
+	# Footer section
+	[params.footer]
+		copyright = ""
+
+		[[params.footer.social]]
+			icon = "fa-twitter"
+			link = "https://twitter.com/lang_helen"
+
+		[[params.footer.social]]
+			icon = "fa-linkedin"
+			link = "https://uk.linkedin.com/in/helenlang"
+
+		[[params.footer.quicklinks]]
+			text = "Privacy Policy"
+			link = "#"
+
+		[[params.footer.quicklinks]]
+			text = "Terms of Use"
+			link = "/terms"
