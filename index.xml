@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Innovation Box</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Innovation Box</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-GB</language>
+    <lastBuildDate>Wed, 11 Nov 2015 10:32:03 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>terms</title>
+      <link>http://localhost:1313/terms/</link>
+      <pubDate>Wed, 11 Nov 2015 10:32:03 +0000</pubDate>
+      
+      <guid>http://localhost:1313/terms/</guid>
+      <description>
+
+&lt;h3 id=&#34;innovation-box-website-2015:9b10c1f64082d3869fd4cb1f85809430&#34;&gt;Innovation Box website ©2015&lt;/h3&gt;
+
+&lt;p&gt;Site layout is based on &lt;a href=&#34;https://github.com/digitalcraftsman/hugo-agency-theme&#34;&gt;Hugo Agency Theme&lt;/a&gt; released under the &lt;a href=&#34;http://www.apache.org/licenses/LICENSE-2.0&#34;&gt;Apache License 2.0&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Stock photography from &lt;a href=&#34;http://kaboompics.com/&#34;&gt;Kaboom Pics&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
