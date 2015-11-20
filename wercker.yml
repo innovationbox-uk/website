@@ -31,4 +31,5 @@ deploy:
     - lukevivier/gh-pages@0.2.1:
         token: $GIT_TOKEN
         basedir: public
+        domain: innovationbox.org.uk
         repo: innovationbox-uk/innovationbox-uk.github.io
