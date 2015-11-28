@@ -54,22 +54,22 @@ theme = "hugo-agency-theme"
 	# About section
 	[params.about]
 		title = "About"
-		subtitle = "What we do"
+		subtitle = "We use professional knowledge & expertise to fundamentally improve the use, access and deployment of technology in VCSEs"
 
 		[[params.about.list]]
-			icon = "fa-laptop"
-			title = "What we do 1"
-			description = "What we do 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+			icon = "fa-group"
+			title = "Support"
+			description = "We bring together VCSEs with skilled experts from the private sector to coach and support organisations to help them be clear about what they want to achieve and what technology and solution/supplier they need to achieve their goals."
 
 		[[params.about.list]]
-			icon = "fa-tachometer"
-			title = "What we do 2"
-			description = "What we do 2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+			icon = "fa-signal"
+			title = "Effectiveness"
+			description = "We provide specialist guidance to understand what VCSEs are trying to do as an organisation, and the most effective and impactful way to achieve that."
 
 		[[params.about.list]]
-			icon = "fa-lock"
-			title = "What we do 3"
-			description = "What we do 3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+			icon = "fa-line-chart"
+			title = "Impact"
+			description = "Ultimately we want to leverage technology to help VCSEs find better ways to raise funds, manage internal systems and reach beneficiaries."
 
 
 	# Services section - currently disabled
@@ -108,7 +108,6 @@ theme = "hugo-agency-theme"
             category = "Category"
             buttonText = "Close project"
 
-
 	# Team section
 	[params.team]
 		title = "The team"
@@ -137,49 +136,56 @@ theme = "hugo-agency-theme"
 				img = "Akira.jpg"
 				name = "Akira Kirton"
 				position = "Commercialisation Director, BP"
-				bio = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+				bio = ""
 
 			[[params.team.advisory]]
 				img = "BruceMacMillan.jpg"
 				name = "Bruce Macmillan"
 				position = "Senior Vice President, Visa Europe"
-				bio = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+				bio = ""
 
 			[[params.team.advisory]]
 				img = "Fraser.jpg"
 				name = "Fraser Duncan"
 				position = "Co-Founder of Clockjack"
-				bio = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
-
-			[[params.team.advisory]]
-				img = "Phil.jpg"
-				name = "Phil Sutcliffe"
-				position = "Board Director, TNS UK"
-				bio = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
-
-			[[params.team.advisory]]
-				img = "SteveR.jpg"
-				name = "Steve Rich"
-				position = "Director, Ooredoo Group"
-				bio = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
-
-			[[params.team.advisory]]
-				img = "Tony.jpg"
-				name = "Tony Rook"
-				position = "Senior Solicitor, Dell"
-				bio = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+				bio = ""
 
 			[[params.team.advisory]]
 				img = "no-photo.png"
 				name = "Gareth Johnson"
 				position = "COO, Rothschild Wealth Management"
-				bio = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+				bio = ""
 
-				[[params.team.advisory]]
-					img = "Mads.jpg"
-					name = "Mads Bjornsbo"
-					position = "Managing Partner, Strategise IT"
-					bio = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+			[[params.team.advisory]]
+				img = "Jean-FrancoisSchmid.jpg"
+				name = "Jean-Francois Schmid"
+				position = "SVP Strategy and Governance at BBC Worldwide"
+				bio = ""
+
+			[[params.team.advisory]]
+				img = "Mads.jpg"
+				name = "Mads Bjornsbo"
+				position = "Managing Partner, Strategise IT"
+				bio = ""
+
+			[[params.team.advisory]]
+				img = "Phil.jpg"
+				name = "Phil Sutcliffe"
+				position = "Board Director, TNS UK"
+				bio = ""
+
+			[[params.team.advisory]]
+				img = "SteveR.jpg"
+				name = "Steve Rich"
+				position = "Director, Ooredoo Group"
+				bio = ""
+
+			[[params.team.advisory]]
+				img = "Tony.jpg"
+				name = "Tony Rook"
+				position = "Senior Solicitor, Dell"
+				bio = ""
+
 
 	# Client section - currently disabled
 	# All the clients' logos are stored under 'static/img/logos'.
