@@ -54,22 +54,22 @@ theme = "hugo-agency-theme"
 	# About section
 	[params.about]
 		title = "About"
-		subtitle = "We use professional knowledge & expertise to fundamentally improve the use, access and deployment of technology in VCSEs"
+		subtitle = "We use professional knowledge & expertise to fundamentally improve the use, access and deployment of technology in charities and social enterprises"
 
 		[[params.about.list]]
 			icon = "fa-group"
 			title = "Support"
-			description = "We bring together VCSEs with skilled experts from the private sector to coach and support organisations to help them be clear about what they want to achieve and what technology and solution/supplier they need to achieve their goals."
+			description = "We bring together charities and social enterprises with skilled experts from the private sector to coach and support organisations to help them be clear about what they want to achieve and what technology and solution/supplier they need to achieve their goals."
 
 		[[params.about.list]]
 			icon = "fa-signal"
 			title = "Effectiveness"
-			description = "We provide specialist guidance to understand what VCSEs are trying to do as an organisation, and the most effective and impactful way to achieve that."
+			description = "We provide specialist guidance to understand what charities and social enterprises are trying to do as an organisation, and the most effective and impactful way to achieve that."
 
 		[[params.about.list]]
 			icon = "fa-line-chart"
 			title = "Impact"
-			description = "Ultimately we want to leverage technology to help VCSEs find better ways to raise funds, manage internal systems and reach beneficiaries."
+			description = "Ultimately we want to leverage technology to help charities and social enterprises find better ways to raise funds, manage internal systems and reach beneficiaries."
 
 
 	# Services section - currently disabled
