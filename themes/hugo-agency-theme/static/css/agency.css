@@ -648,6 +648,10 @@ section h3.section-subheading {
     margin-top: 0;
 }
 
+.team-member__grid {
+  height: 310px;
+}
+
 aside.clients img {
     margin: 50px auto;
 }
