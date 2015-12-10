@@ -17,7 +17,7 @@ theme = "hugo-agency-theme"
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
 	name = "Innovation Box"
-	description = "Your description"
+	description = "innovation box, social enterprise, charity, tech for good, tech support, digital advice, skilled volunteering, UK, corporate volunteering"
 
 	# Since this template is static, the contact form uses www.formspree.io as a
 	# proxy. The form makes a POST request to their servers to send the actual
