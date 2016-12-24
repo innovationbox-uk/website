@@ -122,7 +122,7 @@ theme = "hugo-agency-theme"
 			position = "Founder, Director"
 			bio = "Experienced strategic manager with a record of delivering successful growth in organisations. With over 10 years project management, innovation, fundraising, and delivery experience, (working both in the UK and overseas) and a passion for high quality delivery and concrete outcomes. "
 			social = [
-				["fa-twitter", "https://twitter.com/lang_helen"],
+				["fa-twitter", "https://twitter.com/iboxforgood"],
 				["fa-linkedin", "https://uk.linkedin.com/in/helenlang"]
 			]
 
@@ -237,7 +237,7 @@ theme = "hugo-agency-theme"
 
 		[[params.footer.social]]
 			icon = "fa-twitter"
-			link = "https://twitter.com/lang_helen"
+			link = "https://twitter.com/iboxforgood"
 
 		[[params.footer.social]]
 			icon = "fa-linkedin"
