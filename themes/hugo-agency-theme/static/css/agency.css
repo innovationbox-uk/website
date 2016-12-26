@@ -881,3 +881,9 @@ body {
   -o-background-size: cover;
   color: white;
 }
+
+div.blog.col-lg-8.text-left > p > img {
+    float:left;
+    margin-right:10px;
+}
+

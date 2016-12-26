@@ -1,0 +1,36 @@
+
+
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<head>
+    {{ partial "head.html" . }}
+</head>
+    <body id="page-top" class="bg-light-gray">
+        {{ partial "return-nav.html" . }}
+
+				<section id="about">
+					{{ $paginator := .Paginator }}
+
+				    <div class="container">
+				        <div class="row">
+				            <div class="col-lg-12 text-center">
+				                <h2 class="section-heading">{{ .Title }}</h2>
+				            </div>
+				        </div>
+				        <div class="row text-center">
+
+                  {{ range $index, $page := .Paginator.Pages }}
+            			  {{ .Render "li" }}
+            			{{ end }}
+
+				        </div>
+
+				    </div>
+						{{ partial "pagination.html" $paginator }}
+
+				</section>
+
+        {{ partial "footer.html" . }}
+        {{ partial "modals.html" . }}
+    </body>
+</html>

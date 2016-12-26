@@ -1,3 +1,5 @@
+{{ $baseurl := .Site.BaseURL }}
+
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
 <head>
@@ -5,19 +7,61 @@
 </head>
     <body id="page-top" class="bg-light-gray">
         {{ partial "return-nav.html" . }}
-        <section id="about">
+        <section >
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12 text-left">
+                    <div class="col-lg-2 text-left">
+                      {{ if .NextInSection }}
+                        <a class="post-nav-item post-nav-next" href="{{ .NextInSection.Permalink }}">
+                          <section>
+                            <i class="fa fa-arrow-circle-left"></i>
+                            <span class="post-nav-info">
+                              <h4 class="post-nav-title">{{ .NextInSection.Title }}</h4>
+                              <p class="post-nav-excerpt">{{ .NextInSection.Description }}&hellip;</p>
+                            </span>
+                          </section>
+                        </a>
+                      {{ end }}
+                    </div>
+                    <div class="blog col-lg-8 text-left">
                         <h2 class="section-heading">{{ .Title }}</h2>
+
+                        {{if .Params.showDate }}
+                        <span class="post-meta">
+              						<span class="post-date">{{ .Date.Format "2 Jan 2006" }}</span> <span class="reading-time">| <span class="estimated-reading-time">{{ .ReadingTime }} min.</span> (<span class="word-count">{{ .WordCount }}</span> words)</span></span>
+                				</span>
+                        {{ end }}
+
                         <p class="text-muted">{{ .Content }}</p>
+                        <div class="post-tags" style="display: inline-block;">
+                          {{if .Params.tags }}
+                          {{ range $index, $tag := .Params.tags }}
+                            <span class="label label-default"><a href="{{ $baseurl }}/tags/{{ $tag | urlize }}/">{{ $tag }}</a></span>
+                            <span>&nbsp;</span>
+                          {{ end }}
+                          {{ end }}
                     </div>
                 </div>
+                    <div class="col-lg-2 text-right">
+                      {{ if .PrevInSection }}
+                        <a class="post-nav-item post-nav-prev" href="{{ .PrevInSection.Permalink }}">
+                          <section>
+                            <i class="fa fa-arrow-circle-right"></i>
+                            <span class="post-nav-info">
+                              <h4 class="post-nav-title">{{ .PrevInSection.Title }}</h4>
+                              <p class="post-nav-excerpt">{{ .PrevInSection.Description }}&hellip;</p>
+                            </span>
+                          </section>
+                        </a>
+                      {{ end }}
+                    </div>
+                </div>
+
+
             </div>
         </section>
 
         {{ partial "footer.html" . }}
         {{ partial "modals.html" . }}
-        <!-- {{ partial "js.html" . }} -->
     </body>
 </html>

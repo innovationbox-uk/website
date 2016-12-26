@@ -1,0 +1,19 @@
+<div class="col-sm-4">
+		{{ if .Params.featured }}
+		<article class="{{ .Section }} featured">
+		{{ else }}
+		<article class="{{ .Section }}">
+		{{ end }}
+		<div class="team-member">
+				{{ if .Params.image }}
+				<figure class="col-xs-6" >
+					<img src="{{ .Params.image }}" class="img-responsive img-thumbnail" alt="">
+				</figure>
+				{{ end }}
+				<h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+				<p class="text-muted">{{ .Date.Format "2 Jan 2006" }}</p>
+				<p class="text-muted">{{ .Description }}&hellip;</p>
+				<p class="text-muted"><a href="{{ .Permalink }}">Read More <i class=" fa fa-arrow-circle-right"></i></a></p>
+		</div>
+		</article>
+</div>

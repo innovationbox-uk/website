@@ -4,6 +4,7 @@ languageCode = "en-GB"
 title = "Innovation Box"
 theme = "hugo-agency-theme"
 
+Paginate = 3
 
 [params]
 
