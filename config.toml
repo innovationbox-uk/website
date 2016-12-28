@@ -164,8 +164,8 @@ Paginate = 3
 			[[params.team.advisory]]
 				img = "AlanCrawford.jpg"
 				name = "Alan Crawford"
-				position = "Chief Information Officer, City & Guilds "
-				bio = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at fringilla ipsum. Maecenas non augue et mi sagittis bibendum. Proin quam felis, pretium eget lacus eget, rutrum gravida nisi. Nam nibh enim, iaculis ornare scelerisque malesuada, aliquam id arcu. In egestas, mi sit amet convallis posuere, orci diam egestas est, at hendrerit justo nisi eget arcu. Sed pellentesque luctus mauris, at lacinia nisl gravida id. Vestibulum varius risus sit amet felis venenatis, eget gravida dolor bibendum."
+				position = "Chief Information Officer, City & Guilds"
+				bio = "Chief Information Officer at City & Guilds, a global leader in skills development, helping people into a job, on the job, and onto the next job. Alan was a winner of the UK Digital Leaders 100 - Charity Digital Leader of the Year 2016 award."
 
 			[[params.team.advisory]]
 				img = "Phil.jpg"
