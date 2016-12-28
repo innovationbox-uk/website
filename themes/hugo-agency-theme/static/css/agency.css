@@ -649,7 +649,8 @@ section h3.section-subheading {
 }
 
 .team-member__grid {
-  height: 310px;
+    min-height: 640px;
+    max-height: 810px;
 }
 
 aside.clients img {

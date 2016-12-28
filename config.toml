@@ -144,46 +144,46 @@ Paginate = 3
 			# All advisory member's pictures are stored under 'static/img/advisory'.
 			# Replace them with your own too.
 			[[params.team.advisory]]
-				img = "Akira.jpg"
-				name = "Akira Kirton"
-				position = "Co-Head of BP Ventures, BP"
-				bio = ""
-
-			[[params.team.advisory]]
 				img = "BruceMacMillan.jpg"
 				name = "Bruce Macmillan"
 				position = "Director GC Academy, RPC"
-				bio = ""
+				bio = "Bruce Macmillan is founding Director of the RPC (law firm) Centre for Legal Leadership. The Centre is an initiative commenced in 2016 to provide coaching, mentoring, networking, education and training to in house legal teams on all aspects of their role.  Between 2014 and 2016 Bruce worked jointly as the General Counsel of Legal Practice Technologies Limited and as a management consultant and coach specialising in the legal services sector. Bruce was Executive Director, Senior Commercial Legal Counsel at VISA Europe until April 2014."
 
 			[[params.team.advisory]]
 				img = "no-photo.png"
 				name = "Gareth Johnson"
 				position = "COO, Rothschild Wealth Management"
-				bio = ""
+				bio = "Wealth Management and the Head of their Investment platform, His specialisms are asset management, portfolio management, investment and project management.  Prior to joining Rothschild spent 12 years at Morgan Stanley. Gareth was the COO of Morgan Stanley, Global Investment Solutions"
 
 			[[params.team.advisory]]
 				img = "Jean-FrancoisSchmid.jpg"
 				name = "Jean-Francois Schmid"
 				position = "Global Transformation Director, BBC Worldwide"
-				bio = ""
+				bio = "Prior to BBCW, Jean Francois worked for BT in the IT/ technology areas, driving the longer term innovation agenda for BT and restructuring the research function to make it more strategic and better aligned to the business.  Prior to BT, Jean Francois worked for Cable & Wireless in Group Strategy, driving the strategic planning process for the units outside of the UK. He also spent 5 years in New York city working for AT Kearney, a management consultant in a variety of strategic, operational and IT projects. "
 
 			[[params.team.advisory]]
 				img = "AlanCrawford.jpg"
 				name = "Alan Crawford"
 				position = "Chief Information Officer, City & Guilds "
-				bio = ""
+				bio = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at fringilla ipsum. Maecenas non augue et mi sagittis bibendum. Proin quam felis, pretium eget lacus eget, rutrum gravida nisi. Nam nibh enim, iaculis ornare scelerisque malesuada, aliquam id arcu. In egestas, mi sit amet convallis posuere, orci diam egestas est, at hendrerit justo nisi eget arcu. Sed pellentesque luctus mauris, at lacinia nisl gravida id. Vestibulum varius risus sit amet felis venenatis, eget gravida dolor bibendum."
 
 			[[params.team.advisory]]
 				img = "Phil.jpg"
 				name = "Phil Sutcliffe"
 				position = "Board Director, TNS UK"
-				bio = ""
+				bio = "Phil has worked in the research industry for over 20 years, both in the UK and in Japan. He focuses on innovation in research and the challenges that clients face - working to develop the best possible solutions that TNS UK can offer.  Phil has been instrumental in driving many of our research solutions, from leading our specialist research practices, to our marketing science and digital teams. He continues to support and develop the innovation of our offer and creating greater impact across the business. This includes training, coaching, building capability and optimising our day to day processes."
 
 			[[params.team.advisory]]
 				img = "SteveR.jpg"
 				name = "Steve Rich"
 				position = "Director, Ooredoo Group"
-				bio = ""
+				bio = "Steve is a corporate lawyer with over 15 years of experience gained in leading international law firms and global companies in North America, the Middle East, Southeast Asia, and Europe.  He has experience of dealing with a wide range of transactional, commercial, and regulatory matters, with a focus on the telecommunications and technology sectors."
+
+			[[params.team.advisory]]
+				img = "Akira.jpg"
+				name = "Akira Kirton"
+				position = "Co-Head of BP Ventures, BP"
+				bio = "BP Ventures makes strategic investments in companies with distinctive technology that aligns with BP core businesses. Akira’s previous professional experience include working within and then supporting the spin-out of a company serving over two million persons with energy solutions in rural India and a three year secondment to the UK Energy Technologies Institute (a billion dollar public private partnership between the UK government and industry focused on accelerating affordable, sustainable energy technologies). Akira is a recipient of the 2008 IChemE Award for Innovation, a 2012 Fellow of the Marshall Memorial Foundation and a 2015 World Economic Forum Young Global Leader Award winner."
 
 
 
