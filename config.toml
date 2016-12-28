@@ -187,24 +187,11 @@ Paginate = 3
 
 
 
-	# Client section - currently disabled
 	# All the clients' logos are stored under 'static/img/logos'.
 	# Replace them with your clients's logos.
 	[[params.clients]]
-		logo = "envato.jpg"
-		link = "#"
-
-	[[params.clients]]
-		logo = "designmodo.jpg"
-		link = "#"
-
-	[[params.clients]]
-		logo = "themeforest.jpg"
-		link = "#"
-
-	[[params.clients]]
-		logo = "creative-market.jpg"
-		link = "#"
+		logo = "SSE_FellowLogo_Fellow.png"
+		link = "https://www.the-sse.org"
 
 
 	# Contact section
