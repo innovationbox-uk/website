@@ -127,6 +127,16 @@ Paginate = 3
 				["fa-linkedin", "https://uk.linkedin.com/in/helenlang"]
 			]
 
+		[[params.team.members]]
+			img = "MarlijnWijkhuizen.jpg"
+			name = "Marlijn Wijkhuizen"
+			position = "Corporate Partnerships"
+			bio = "Marlijn was Head of Community Partnerships at Community Action Southwark where she lead the Involve Team which provided high quality practical as well as strategic Team Challenges for business volunteers. She has over a decade of experience in partnership working with the HR/L&D and CSR teams of our corporate clients to help develop and deliver their Employer Supported Volunteering programmes."
+			social = [
+				["fa-twitter", "https://twitter.com/maj_pet"],
+				["fa-linkedin", "https://uk.linkedin.com/in/marlijnwijkhuizen"]
+			]
+
 			[params.advisory]
 				title = "Advisory Board"
 				subtitle = "World class business leaders."
@@ -136,19 +146,13 @@ Paginate = 3
 			[[params.team.advisory]]
 				img = "Akira.jpg"
 				name = "Akira Kirton"
-				position = "Commercialisation Director, BP"
+				position = "Co-Head of BP Ventures, BP"
 				bio = ""
 
 			[[params.team.advisory]]
 				img = "BruceMacMillan.jpg"
 				name = "Bruce Macmillan"
-				position = "Senior Vice President, Visa Europe"
-				bio = ""
-
-			[[params.team.advisory]]
-				img = "Fraser.jpg"
-				name = "Fraser Duncan"
-				position = "Co-Founder of Clockjack"
+				position = "Director GC Academy, RPC"
 				bio = ""
 
 			[[params.team.advisory]]
@@ -160,13 +164,13 @@ Paginate = 3
 			[[params.team.advisory]]
 				img = "Jean-FrancoisSchmid.jpg"
 				name = "Jean-Francois Schmid"
-				position = "SVP Strategy and Governance at BBC Worldwide"
+				position = "Global Transformation Director, BBC Worldwide"
 				bio = ""
 
 			[[params.team.advisory]]
-				img = "Mads.jpg"
-				name = "Mads Bjornsbo"
-				position = "Managing Partner, Strategise IT"
+				img = "AlanCrawford.jpg"
+				name = "Alan Crawford"
+				position = "Chief Information Officer, City & Guilds "
 				bio = ""
 
 			[[params.team.advisory]]
@@ -181,11 +185,6 @@ Paginate = 3
 				position = "Director, Ooredoo Group"
 				bio = ""
 
-			[[params.team.advisory]]
-				img = "Tony.jpg"
-				name = "Tony Rook"
-				position = "Senior Solicitor, Dell"
-				bio = ""
 
 
 	# Client section - currently disabled
