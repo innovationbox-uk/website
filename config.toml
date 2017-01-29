@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "http://innovationbox-uk.github.io/"
 languageCode = "en-GB"
-title = "Innovation Box"
+title = "Innovation Unboxed"
 theme = "hugo-agency-theme"
 
 Paginate = 3
@@ -17,8 +17,8 @@ Paginate = 3
 
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-	name = "Innovation Box"
-	description = "innovation box, social enterprise, charity, tech for good, tech support, digital advice, skilled volunteering, UK, corporate volunteering"
+	name = "Innovation Unboxed"
+	description = "innovation unboxed, social enterprise, charity, tech for good, tech support, digital advice, skilled volunteering, UK, corporate volunteering"
 
 	# Since this template is static, the contact form uses www.formspree.io as a
 	# proxy. The form makes a POST request to their servers to send the actual
@@ -31,12 +31,12 @@ Paginate = 3
     # - send a dummy email yourself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-	email = "contact@innovationbox.org.uk"
+	email = "contact@innovationunboxed.org"
 
 
 	# Navigation
 	[params.navigation]
-		brand = "Innovation Box"
+		brand = "Innovation Unboxed"
 		services = "Services"
 		portfolio = "Portfolio"
 		about = "About"
@@ -48,7 +48,7 @@ Paginate = 3
 	[params.hero]
 		# To change the background image of the hero, replace 'header-bg.jpg' in
 		# the 'static/img' folder.
-		title = "Innovation Box"
+		title = "Innovation Unboxed"
 		subtitle = "Changing the way charities and social enterprises engage with IT"
 		buttonText = "Tell me more"
 
