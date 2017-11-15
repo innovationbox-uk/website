@@ -196,7 +196,7 @@ Paginate = 3
 			[[params.clients.client]]
 				logo = "tender.png"
 				link = "http://tender.org.uk/"
-				
+
 			[[params.clients.client]]
 					logo = "group_m.png"
 					link = "https://www.groupm.com/"
@@ -209,6 +209,14 @@ Paginate = 3
 				logo = "sse_fellow.png"
 				link = "https://www.the-sse.org"
 
+	[params.quotes]
+		title = "Feedback"
+		subtitle = ""
+		description = ""
+
+		[[params.quotes.quote]]
+			person = "Nominet Trust, Chris Ashworth"
+			text = "It was great to work with Innovation Unboxed on the design and content of our 'charity digital usage research' study, her knowledge and understanding of the sector and issues proved invaluable. The work she invested in the structure, content and design of the survey have meant that we have been able to take forward an important piece of work that will both give us a more insightful and practical understanding of the types of interventions or support we will need to think about in the future."
 
 
 	# Contact section

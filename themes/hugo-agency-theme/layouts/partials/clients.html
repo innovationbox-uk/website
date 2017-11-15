@@ -21,5 +21,18 @@
             </div>
             {{ end }}
         </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h3 class="section-heading">{{ with .Site.Params.quotes.title }}{{ . | markdownify }}{{ end }}</h3>
+            </div>
+        </div>
+        <div class="row">
+            {{ range .Site.Params.quotes.quote }}
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+              <p class="large text-muted">&quot;{{ with .text }}{{ . | markdownify }}{{ end }}&quot;</p>
+              <p class="large text-muted">{{ with .person }}{{ . | markdownify }}{{ end }}</p>
+            </div>
+            {{ end }}
+        </div>
     </div>
 </section>
