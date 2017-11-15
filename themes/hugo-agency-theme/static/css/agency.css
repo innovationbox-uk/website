@@ -653,8 +653,8 @@ section h3.section-subheading {
     max-height: 810px;
 }
 
-aside.clients img {
-    margin: 50px auto;
+section.clients img {
+    margin: 20px auto;
 }
 
 section#contact {
@@ -887,4 +887,3 @@ div.blog.col-lg-8.text-left > p > img {
     float:left;
     margin-right:10px;
 }
-

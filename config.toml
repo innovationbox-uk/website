@@ -41,6 +41,7 @@ Paginate = 3
 		portfolio = "Portfolio"
 		about = "About"
 		team = "Team"
+		clients = "Partners"
 		contact = "Contact"
 
 
@@ -49,7 +50,7 @@ Paginate = 3
 		# To change the background image of the hero, replace 'header-bg.jpg' in
 		# the 'static/img' folder.
 		title = "Innovation Unboxed"
-		subtitle = "Changing the way charities and social enterprises engage with IT"
+		subtitle = "Changing the way charities and social enterprises engage with digital"
 		buttonText = "Tell me more"
 
 	# About section
@@ -128,7 +129,6 @@ Paginate = 3
 			]
 
 
-
 			[params.advisory]
 				title = "Advisory Board"
 				subtitle = "World class business leaders."
@@ -177,13 +177,38 @@ Paginate = 3
 				position = "Co-Head of BP Ventures, BP"
 				bio = "BP Ventures makes strategic investments in companies with distinctive technology that aligns with BP core businesses. Akira’s previous professional experience include working within and then supporting the spin-out of a company serving over two million persons with energy solutions in rural India and a three year secondment to the UK Energy Technologies Institute (a billion dollar public private partnership between the UK government and industry focused on accelerating affordable, sustainable energy technologies). Akira is a recipient of the 2008 IChemE Award for Innovation, a 2012 Fellow of the Marshall Memorial Foundation and a 2015 World Economic Forum Young Global Leader Award winner."
 
+	# Team section
+	[params.clients]
+		title = "Partners"
+		subtitle = ""
+		description = ""
 
+			# All the clients' logos are stored under 'static/img/logos'.
+			# Replace them with your clients's logos.
+			[[params.clients.client]]
+				logo = "comic_relief.png"
+				link = "https://www.comicrelief.com/"
 
-	# All the clients' logos are stored under 'static/img/logos'.
-	# Replace them with your clients's logos.
-	[[params.clients]]
-		logo = "SSE_FellowLogo_Fellow.png"
-		link = "https://www.the-sse.org"
+			[[params.clients.client]]
+				logo = "cast.jpg"
+				link = "http://www.wearecast.org.uk/"
+
+			[[params.clients.client]]
+				logo = "tender.png"
+				link = "http://tender.org.uk/"
+				
+			[[params.clients.client]]
+					logo = "group_m.png"
+					link = "https://www.groupm.com/"
+
+			[[params.clients.client]]
+				logo = "aanchal.png"
+				link = "http://aanchal.org.uk/"
+
+			[[params.clients.client]]
+				logo = "sse_fellow.png"
+				link = "https://www.the-sse.org"
+
 
 
 	# Contact section
