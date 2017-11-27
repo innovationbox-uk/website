@@ -28,7 +28,7 @@
         </div>
         <div class="row">
             {{ range .Site.Params.quotes.quote }}
-            <div class="col-lg-8 col-lg-offset-2 text-center">
+            <div class="col-lg-6 text-center">
               <p class="large text-muted">&quot;{{ with .text }}{{ . | markdownify }}{{ end }}&quot;</p>
               <p class="large text-muted">{{ with .person }}{{ . | markdownify }}{{ end }}</p>
             </div>

@@ -218,6 +218,9 @@ Paginate = 3
 			person = "Nominet Trust, Chris Ashworth"
 			text = "It was great to work with Innovation Unboxed on the design and content of our 'charity digital usage research' study, her knowledge and understanding of the sector and issues proved invaluable. The work she invested in the structure, content and design of the survey have meant that we have been able to take forward an important piece of work that will both give us a more insightful and practical understanding of the types of interventions or support we will need to think about in the future."
 
+		[[params.quotes.quote]]
+			person = "Aanchal"
+			text = "Our experience with Innovation Unboxed can be described as a breath of fresh air, not only supporting us in one particular project, but helping us to think outside the box across our organisation.  Each activity giving us further links into growth and sustainability.  We have found this partnership very grounded, adapting to what we know already, learning together and then raising the bar to help us realise our potential.  Helen gives more than what you ask for, for example, we have learnt new tools to establish our evidence and planning ahead in a short space of time."
 
 	# Contact section
 	[params.contact]
