@@ -53,7 +53,7 @@ Innovation Unboxed&#39;s website may contain links to other websites. (For insta
 
 **6.**  **Your Intellectual Property**
 
-## We don&#39;t own the information you post on Innovation Unboxed&#39;s website. But when you post it, you are giving us permission to use it or copy it however we need to run the website effectively, or to show people what is happening on it. (We generally just use this to promote research and projects and to showcase the work of our network on the website or in our newsletter). You are responsible for the content you post, and you are vouching that is okay for us to use.
+We don&#39;t own the information you post on Innovation Unboxed&#39;s website. But when you post it, you are giving us permission to use it or copy it however we need to run the website effectively, or to show people what is happening on it. (We generally just use this to promote research and projects and to showcase the work of our network on the website or in our newsletter). You are responsible for the content you post, and you are vouching that is okay for us to use.
 
 When you submit a project or a piece of research to share you agree to these terms:
 
