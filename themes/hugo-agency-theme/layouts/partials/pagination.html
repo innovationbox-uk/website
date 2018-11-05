@@ -3,11 +3,11 @@
         <nav aria-label="...">
             <ul class="pager">
                 {{if .HasPrev}}
-                <li class="previous"><a href="{{ .Prev.URL }}"><i class="fa fa-arrow-circle-left"></i> Older</a></li>
+                <li class="previous"><a href="{{ .Prev.URL }}"><i class="fa fa-arrow-circle-left"></i> Newer</a></li>
                 {{end}}
                 <span>Page {{ .PageNumber }} of {{.TotalPages}}</span>
                 {{if .HasNext}}
-                <li class="next"><a href="{{ .Next.URL }}">Newer <i class="fa fa-arrow-circle-right"></i></a></li>
+                <li class="next"><a href="{{ .Next.URL }}">Older <i class="fa fa-arrow-circle-right"></i></a></li>
                 {{end}}
             </ul>
         </nav>
