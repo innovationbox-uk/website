@@ -193,7 +193,7 @@ If you decide you do not want to receive any further emails from INNOVATION UNBO
 
 Please note that where you ask us to delete your personal information we will maintain a skeleton record comprising your name and organisation to ensure that we do not inadvertently contact you in the future.  We may also need to retain some financial records for statutory purposes, for example Gift Aid.
 
-**Please note that ** you also have the right to lodge a complaint with the Government authority managing data in your EEA state e.g. in the UK the Information Commissioner&#39;s Office at  [http://www.ico.org.uk/concerns](http://www.ico.org.uk/concerns)
+**Please note that ** you also have the right to lodge a complaint with the Government authority managing data in your EEA state e.g. in the UK the Information Commissioner&#39;s Office at  [ico.org.uk/make-a-complaint](https://ico.org.uk/make-a-complaint/)
 
 ### 11. **OTHER SITES**
 
@@ -207,4 +207,4 @@ INNOVATION UNBOXED may update this privacy statement by posting a new version on
 
 INNOVATION UNBOXED&#39;s Data Protection Officer is responsible for monitoring compliance with relevant legislation in relation to personal data.  You can also contact the Data Protection Officer if you have any questions about this privacy statement or our treatment of your personal information:
 
-Email: [http://info@innovationunboxed.org](http://info@innovationunboxed.org)
+Email: [info@innovationunboxed.org](mailto:info@innovationunboxed.org)

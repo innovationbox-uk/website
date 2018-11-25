@@ -117,6 +117,6 @@ These updated terms will come into effect on May 25, 2018, and apply to all proj
 
 ## Innovation Unboxed website ©2018
 
-Site layout is based on [Hugo Agency Theme](https://github.com/digitalcraftsman/hugo-agency-theme) released under the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0)
+Site layout is based on [Hugo Agency Theme](https://github.com/digitalcraftsman/hugo-agency-theme) released under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)
 
-Stock photography from [Kaboom Pics](http://kaboompics.com/)
+Stock photography from [Kaboom Pics](https://kaboompics.com/)
