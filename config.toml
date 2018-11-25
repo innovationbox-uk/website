@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://innovationbox-uk.github.io/"
+baseurl = "https://www.innovationunboxed.org/"
 languageCode = "en-GB"
 title = "Innovation Unboxed"
 theme = "hugo-agency-theme"
