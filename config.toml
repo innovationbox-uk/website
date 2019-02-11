@@ -195,8 +195,8 @@ Paginate = 3
 				link = "https://wearecast.org.uk/"
 
 			[[params.clients.client]]
-				logo = "tender.png"
-				link = "https://tender.org.uk/"
+				logo = "allfie.png"
+				link = "https://www.allfie.org.uk/"
 
 			[[params.clients.client]]
 					logo = "group_m.png"
