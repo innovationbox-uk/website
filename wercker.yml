@@ -20,8 +20,8 @@ build:
     # Read more about steps on our dev center:
     # http://devcenter.wercker.com/docs/steps/index.html
   steps:
-    - arjen/hugo-build@1.6.1:
-        version: "0.14"
+    - arjen/hugo-build@2.8.0:
+        version: "0.53"
         theme: hugo-agency-theme
         flags: --buildDrafts=true
 deploy:
