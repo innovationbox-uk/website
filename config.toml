@@ -139,8 +139,8 @@ Paginate = 3
 			[[params.team.advisory]]
 				img = "BruceMacMillan.jpg"
 				name = "Bruce Macmillan"
-				position = "Director GC Academy, RPC"
-				bio = "Bruce Macmillan is founding Director of the RPC (law firm) Centre for Legal Leadership. The Centre is an initiative commenced in 2016 to provide coaching, mentoring, networking, education and training to in house legal teams on all aspects of their role.  Between 2014 and 2016 Bruce worked jointly as the General Counsel of Legal Practice Technologies Limited and as a management consultant and coach specialising in the legal services sector. Bruce was Executive Director, Senior Commercial Legal Counsel at VISA Europe until April 2014."
+				position = "General Counsel, Irwin Mitchell LLP"
+				bio = "Bruce Macmillan is General Counsel for and on behalf of Irwin Mitchell LLP and founding Director of the Centre for Legal Leadership. The Centre is an initiative commenced in 2016 to provide coaching, mentoring, networking, education and training to in house legal teams on all aspects of their role.  Between 2014 and 2016 Bruce worked jointly as the General Counsel of Legal Practice Technologies Limited and as a management consultant and coach specialising in the legal services sector. Bruce was Executive Director, Senior Commercial Legal Counsel at VISA Europe until April 2014."
 
 			[[params.team.advisory]]
 				img = "no-photo.png"
